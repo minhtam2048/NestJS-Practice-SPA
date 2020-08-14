@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "NestJS-Practice-SPA"
+    }
+  },
+  "defaultProject": "NestJS-Practice-SPA",
+  "cli": {
+    "analytics": "4e47a094-000f-4f3f-b818-6681cd69eaa6"
+  }
 }
