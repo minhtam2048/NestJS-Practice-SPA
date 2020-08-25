@@ -3,7 +3,7 @@
     <button mat-button routerLink="/"><mat-icon>home</mat-icon></button>
   </span>
   <div fxLayout="row" fxShow="false" fxShow.gt-sm>
-    <button mat-button routerLink="/login">
+    <button mat-button [routerLink]="['/login']" routerLinkActive="active">
       <mat-icon>power_settings_new</mat-icon>
       Login
     </button>
@@ -29,8 +29,8 @@
     <mat-icon>gamepad</mat-icon>
     Play
   </button>
-  <button mat-menu-item [routerLink]="['/login']" routerLinkActive="active">
+  <!-- <button mat-menu-item [routerLink]="['/login']" routerLinkActive="active">
     <mat-icon>power_settings_new</mat-icon>
     Login
-  </button>
+  </button> -->
 </mat-menu>

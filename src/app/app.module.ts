@@ -8,7 +8,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
+// Form
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+// JWT
+import { JwtModule } from '@auth0/angular-jwt';
 
 // CSS
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -26,6 +30,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSelectModule } from '@angular/material/select';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 // import { MatOptionModule } from '@angular/material/';
 
 @NgModule({
@@ -41,6 +46,10 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     RouterModule,
+    HttpClientModule,
+
+    // Jwt
+    JwtModule,
     
     // Form
     FormsModule,
